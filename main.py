@@ -58,7 +58,7 @@ def append_to_file(filename,content):
 
 
 
-load_dotenv() 
+load_dotenv("./conf/.env") 
 
 prompt = os.getenv('US_PROMPT')
 print(f"prompt = {prompt}")
